@@ -1,0 +1,123 @@
+.bigContainer{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(187, 186, 186);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerHeader{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.containerHeader header nav a{
+    text-decoration: none;
+    color:gray;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+
+}
+.containerHeader header nav{
+    display: flex;
+    justify-content: space-between;
+    width:80%
+}
+
+
+
+.bigContainer img{
+  width: 27%;
+  height: 100%;
+  background-color: rgb(231, 64, 153);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerHeader header{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(231, 64, 153);  
+}
+
+
+
+
+.containerFooter{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(231, 64, 153); 
+    margin-bottom: 1%;
+}
+
+.containerFooter article,.containerFooter footer{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(24, 154, 80); 
+    gap: 10px;
+}
+
+.containerMain{
+width: 100%;
+height: 50vh;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.containerMain main{
+    height: 100%;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+}
+
+.containerMain img {
+    width: 51%;
+    height: 54%;
+    background-color: rgb(231, 64, 153);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerSecciones{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    height: 100%;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.containerSecciones section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 45%;
+    justify-content:center;
+    align-items: center;
+    background-color: purple;
+
+}
